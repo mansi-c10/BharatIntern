@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 50px;
+		}
+
+		input[type="number"] {
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #fff;
+			width: 200px;
+			font-size: 16px;
+		}
+
+		button[type="submit"] {
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			background-color: #4CAF50;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		button[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+
+		p {
+			text-align: center;
+			font-size: 24px;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Temperature Converter</h1>
+
+	<form onsubmit="return false;">
+		<label for="celsius">Celsius:</label>
+		<input type="number" id="celsius" placeholder="Enter temperature in Celsius" required>
+
+		<label for="fahrenheit">Fahrenheit:</label>
+		<input type="number" id="fahrenheit" placeholder="Enter temperature in Fahrenheit" required>
+
+		<button type="submit" onclick="convert()">Convert</button>
+	</form>
+
+	<p id="result"></p>
+
+<script>
+	function convert() {
+	  let celsius = document.getElementById("celsius").value
+	  let fahrenheit = document.getElementById("fahrenheit").value
+
+	  if (celsius) {
+	    let f = (celsius * (9/5)) + 32
+	    document.getElementById("fahrenheit").value = f.toFixed(2)
+	  } else if (fahrenheit) {
+	    let c = (fahrenheit - 32) * (5/9)
+	    document.getElementById("celsius").value = c.toFixed(2)
+	  }
+
+	  document.getElementById("result").innerHTML = "Converted!"
+	  setTimeout(() => {document.getElementById("result").innerHTML = ""}, 2000)
+}
+</script>
+
+</body>
+</html>
