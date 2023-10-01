@@ -5,10 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Portfolio</title>
   <link rel="stylesheet" href="style.css">
+<div style=“background-image: url(‘’);”>
 </head>
+<style>
+body {
+  background-image: url('https://wallpaperaccess.com/full/1665560.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
 <body>
   <header>
-    <h1>Your Name</h1>
+    <h1>Mansi Varshney</h1>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
@@ -20,31 +29,57 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Write a brief introduction about yourself here.</p>
+<h3>PERSONAL DETAILS<h3>
+    <p>Father's Name	          : Mr. Kramal Kumar Varshney<br>
+Date of Birth    	          : Oct 22, 2001<br>
+Languages known      : English and Hindi<br>
+Gender	                       : Female<br>
+Permanent Address  : Street Bohran, Aldermanry Dauji, Sasni (204216) 
+</p>
+<h3>EDUCATIONAL QUALIFICATION<h3>
+<p>B.Tech , (Computer Science and Engineering)	2021-2025<br>
+Krishna Engineering College, AKTU, 73%<br><br>
+Intermediate (Science Stream)	2016-2017<br>
+Saraswati Vidhya Mandir HSS, State  Board, 80.6%<br><br>
+High School	2014-2015<br>
+Saraswati Vidhya Mandir I C, State  Board, 77%<br><br>
+</p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
+<h3>BHARAT INTERN<h3>
     <ul>
       <li>
-        <h3>Project 1</h3>
-        <p>Description of project 1.</p>
+        <h4>Portfolio Website</h4>
+        <p>Making your on demo portfolio website.</p>
       </li>
       <li>
-        <h3>Project 2</h3>
-        <p>Description of project 2.</p>
+        <h4>Temperature Converter</h4>
+        <p>Making a temperature converting website.</p>
       </li>
+<li>
+<h4>Netflix Homepage Website<h4>
+<p>Making a demo Netflix homepage website.</p>
+</li>
     </ul>
   </section>
 
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>You can reach me at email@example.com or through the contact form below.</p>
+<h3>Phone Number<h3>
+    <p>9219832250</p>
+<h3>E-mail<h3>
+<p><a href=“mansivarshney1172@gmail.com”>mansivarshney1172@gmail.com</a></p>
+<h3>LinkedIn<h3>
+<p><a href=“https://www.linkedin.com/in/mansi-varshney-750a58233/”>mansi-varshney-750a58233</a></p>
+<h3>GitHub<h3>
+<p><a href=“https://github.com/mansi-c10”>mansi-c10</a><p>
     <!-- Add your contact form code here -->
   </section>
 
   <footer>
-    © Your Name
+    © MANSI VARSHNEY
   </footer>
 
   <!-- Add your JavaScript code here -->
