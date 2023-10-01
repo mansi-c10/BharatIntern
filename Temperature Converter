@@ -52,6 +52,14 @@
 		}
 	</style>
 </head>
+<style>
+body {
+  background-image: url('https://media.istockphoto.com/id/819556270/photo/thermometer-on-a-green-nature-background-and-temperature-measuring-environment-concept.jpg?s=612x612&w=0&k=20&c=cZ1I7hgWWTswzNoAOeIek6AYmD3I62FvMJlqCHtlCmE=');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
 <body>
 	<h1>Temperature Converter</h1>
 
