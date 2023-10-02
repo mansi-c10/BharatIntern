@@ -1,12 +1,17 @@
 <style>
 body {
-  background-image: url('https://images.unsplash.com/photo-1586899028174-e7098604235b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmV0ZmxpeHxlbnwwfHwwfHx8MA==&w=1000&q=80');
+  background-image: url('https://images3.alphacoders.com/115/1152303.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 45% 100%;
+  background-size: 100% 100%;
   background-position: right;
 }
 </style>
+<style> p { color: white; } </style>
+<style> h1 { color: white; } </style>
+<style> h2 { color: white; } </style>
+<style> h3 { color: white; } </style>
+<style> h4 { color: white; } </style>
 <header class="showcase">
 <div class="showcase-top">
 <img src="https://i.ibb.co/r5krrdz/logo.png" alt="" />
@@ -99,10 +104,10 @@ Choose one plan and watch everything on Netflix.
 </p>
 <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
 </div>
-<style> table { border: 1px solid black; border-spacing: 5px; }
+<style> table { border: 1px solid white; border-spacing: 5px; }
 
-td, th { border: 1px solid black; margin: 10px; } </style>
-<table class="table" border="2">
+td, th { border: 1px solid white; margin: 10px; } </style>
+<table class="table" border="2" style="color: white;">
 <thead>
 <tr>
 <th></th>
@@ -168,26 +173,26 @@ td, th { border: 1px solid black; margin: 10px; } </style>
 <footer class="footer">
 <p>Questions? Call 9876543210 </p>
 <div class="footer-cols">
-<ul>
+<ul style="text-color: white;">
 <li><a href="#">FAQ</a></li>
 <li><a href="#">Investor Relations</a></li>
 <li><a href="#">Ways To Watch</a></li>
 <li><a href="#">Corporate Information</a></li>
 <li><a href="#">Netflix Originals</a></li>
 </ul>
-<ul>
+<ul style="text-color: white;">
 <li><a href="#">Help Center</a></li>
 <li><a href="#">Jobs</a></li>
 <li><a href="#">Terms Of Use</a></li>
 <li><a href="#">Contact Us</a></li>
 </ul>
-<ul>
+<ul style="text-color: white;">
 <li><a href="#">Account</a></li>
 <li><a href="#">Redeem Gift Cards</a></li>
 <li><a href="#">Privacy</a></li>
 <li><a href="#">Speed Test</a></li>
 </ul>
-<ul>
+<ul style="text-color: white;">
 <li><a href="#">Media Center</a></li>
 <li><a href="#">Buy Gift Cards</a></li>
 <li><a href="#">Cookie Preferences</a></li>
